@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="../static/js/jquery-3.5.1.js"></script>
+<!--    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script>
+        $(function () {
+            $('.avatar').mouseover(function () {
+                $(this)
+                    .transition({
+                        debug     : true,
+                        animation : 'tada',
+                        duration  : 500,
+                        interval  : 200
+                    });
+            })
+            $('.menu.toggle').click(function () {
+                $('.m-item').toggleClass('m-mobile-hide');
+            })
+            $('.qq').popup({
+                position : 'bottom center'
+            });
+            $('.wechat').popup({
+                popup : $('.wechatQR'),
+                on : 'hover',
+                position : 'bottom center'
+            })
+        })
+    </script>
+
+</head>
+<body>
+
+    <!--导航-->
+    <nav class="ui attached segment m-padded-tb-mini m-shadow-small" >
+        <div class="ui container">
+            <div class="ui secondary stackable menu">
+                <h2 class="ui blue header item">Xun</h2>
+                <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="arrow circle up icon"></i>分类</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="clone icon"></i>归档</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="folder open outline icon"></i>标签</a>
+                <a href="#" class="active m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
+
+                <div class="right m-item item m-mobile-hide">
+                    <div class="ui icon input">
+                        <input type="text" placeholder="Search..">
+                        <i class="search icon link"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="ui menu toggle icon button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+    </nav>
+
+
+    <!--中间内容-->
+    <div class="m-container m-padded-tb-big">
+        <div class="ui container">
+            <div class="ui stackable grid">
+                <div class="eight wide column">
+                    <div class="ui center segment">
+                        <img src="../static/images/avatar/hqsw2.jpg" alt="" class="ui rounded centered image" style="width: 300px !important;">
+                    </div>
+                </div>
+                <div class="eight wide column">
+                    <div class="ui top attached segment">
+                        <div class="ui header">关于我</div>
+                    </div>
+                    <div class="ui attached segment">
+                        <p class="m-text-small">菜菜Xun ,, 一个苦穷逼 ，，天天摸鱼，， 不学无术</p>
+                        <p class="m-text-small">喜欢打游戏 ，， 听歌 ，， 吃饭 ，， 睡觉 ，， 打豆豆  </p>
+                    </div>
+                    <div class="ui attached segment">
+                        <div class="ui blue basic label m-margin-tb-tiny">听歌</div>
+                        <div class="ui blue basic label m-margin-tb-tiny">睡觉</div>
+                        <div class="ui blue basic label m-margin-tb-tiny">打豆豆</div>
+                        <div class="ui blue basic label m-margin-tb-tiny">摸鱼</div>
+                    </div>
+                    <div class="ui attached segment">
+                        <div class="ui teal basic label m-margin-tb-tiny">Java</div>
+                        <div class="ui teal basic label m-margin-tb-tiny">看书</div>
+                        <div class="ui teal basic label m-margin-tb-tiny">Spring</div>
+                        <div class="ui teal basic label m-margin-tb-tiny">Mysql</div>
+                    </div>
+                    <div class="ui bottom attached segment">
+                        <a href="#" class="ui circular icon button basic"><i class="github icon"></i></a>
+                        <a href="#" class="ui wechat circular icon button basic"><i class="weixin icon"></i></a>
+                        <a href="#" class="ui qq circular icon button basic" data-content="QQ 1015288025"><i class="qq icon"></i></a>
+                    </div>
+                    <div class="ui wechatQR flowing popup transition hidden">
+                        <img src="../static/images/QrCode.png" alt="" class="ui rounded image" style="width: 100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--底部-->
+    <footer class="ui vertical segment m-padded-tb-massive">
+        <div class="ui center aligned container">
+            <div class="ui divided stackable grid">
+                <div class="three wide column">
+                    <div class="ui link list">
+                        <div class="item">
+                            <img src="../static/images/QrCode.png" class="ui rounded image" style="width: 110px;"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <h4 class="ui header">最新博客</h4>
+                    <div class="ui link list">
+                        <a href="#" class="item">blog1</a>
+                        <a href="#" class="item">blog2</a>
+                        <a href="#" class="item">blog3</a>
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <h4 class="ui header">联系我</h4>
+                    <div class="ui link list">
+                        <a href="#" class="item">Email: sunzhangxun@outlook.com</a>
+                        <a href="#" class="item">QQ: 1015288025</a>
+                    </div>
+                </div>
+                <div class="five wide column">
+                    <h4 class="ui header">最新博客</h4>
+                    <p  class="m-text-space m-text-thin m-text-lined" style="opacity: 0.7;">这只是一段测试文字，，但是这为什么是一段测试文字呢？？？我也不知道为什么呀！！</p>
+                </div>
+            </div>
+            <br>
+            <div class="ui section divider"></div>
+            <p class="center aligned m-text-thin" style="opacity: 0.5;">Copy © 2020 - xxxx Xun</p>
+        </div>
+
+    </footer>
+
+
+</body>
+</html>

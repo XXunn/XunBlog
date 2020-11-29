@@ -1,0 +1,57 @@
+2020-11-29 15:48:35.226 [main] INFO  com.szx.BlogApplication - Starting BlogApplication on LAPTOP-GC9EQOVG with PID 16424 (X:\Study\java_study\XunBlog\target\classes started by LENOVO in X:\Study\java_study\XunBlog)
+2020-11-29 15:48:35.233 [main] INFO  com.szx.BlogApplication - The following profiles are active: env1
+2020-11-29 15:48:37.383 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-11-29 15:48:37.396 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-11-29 15:48:37.397 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-29 15:48:37.398 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-29 15:48:37.688 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-29 15:48:37.688 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2357 ms
+2020-11-29 15:48:38.485 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 15:48:38.656 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-29 15:48:39.076 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-11-29 15:48:39.180 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-29 15:48:39.197 [main] INFO  com.szx.BlogApplication - Started BlogApplication in 5.708 seconds (JVM running for 9.075)
+2020-11-29 15:49:43.205 [main] INFO  com.szx.BlogApplication - Starting BlogApplication on LAPTOP-GC9EQOVG with PID 13572 (X:\Study\java_study\XunBlog\target\classes started by LENOVO in X:\Study\java_study\XunBlog)
+2020-11-29 15:49:43.208 [main] INFO  com.szx.BlogApplication - The following profiles are active: env1
+2020-11-29 15:49:44.428 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-11-29 15:49:44.437 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-11-29 15:49:44.437 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-29 15:49:44.438 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-29 15:49:44.517 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-29 15:49:44.518 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1251 ms
+2020-11-29 15:49:44.966 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 15:49:45.058 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-29 15:49:45.358 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-11-29 15:49:45.377 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-29 15:49:45.386 [main] INFO  com.szx.BlogApplication - Started BlogApplication in 2.951 seconds (JVM running for 4.326)
+2020-11-29 15:49:52.494 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 15:49:52.495 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-29 15:49:52.504 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-11-29 15:49:52.556 [http-nio-8888-exec-1] INFO  com.szx.aspect.LogAspect - Request : {url='http://localhost:8888/BlogInput', ip='0:0:0:0:0:0:0:1', classMethod='com.szx.controller.IndexController.BlogInput', args=[]}
+2020-11-29 15:49:52.561 [http-nio-8888-exec-1] INFO  com.szx.aspect.LogAspect - Result : blogs-input
+2020-11-29 15:49:52.561 [http-nio-8888-exec-1] INFO  com.szx.aspect.LogAspect - ------------deAfter-------------
+2020-11-29 15:50:25.901 [main] INFO  com.szx.BlogApplication - Starting BlogApplication on LAPTOP-GC9EQOVG with PID 6528 (X:\Study\java_study\XunBlog\target\classes started by LENOVO in X:\Study\java_study\XunBlog)
+2020-11-29 15:50:25.914 [main] INFO  com.szx.BlogApplication - The following profiles are active: env1
+2020-11-29 15:50:27.029 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-11-29 15:50:27.037 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2020-11-29 15:50:27.037 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-29 15:50:27.038 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-29 15:50:27.130 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-29 15:50:27.131 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1174 ms
+2020-11-29 15:50:27.717 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-29 15:50:27.802 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-29 15:50:28.115 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2020-11-29 15:50:28.133 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-29 15:50:28.142 [main] INFO  com.szx.BlogApplication - Started BlogApplication in 2.916 seconds (JVM running for 4.004)
+2020-11-29 15:50:29.213 [http-nio-8888-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-29 15:50:29.213 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-29 15:50:29.222 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-11-29 15:50:29.241 [http-nio-8888-exec-1] INFO  com.szx.aspect.LogAspect - Request : {url='http://localhost:8888/BlogInput', ip='0:0:0:0:0:0:0:1', classMethod='com.szx.controller.IndexController.BlogInput', args=[]}
+2020-11-29 15:50:29.247 [http-nio-8888-exec-1] INFO  com.szx.aspect.LogAspect - Result : admin/blogs-input
+2020-11-29 15:50:29.248 [http-nio-8888-exec-1] INFO  com.szx.aspect.LogAspect - ------------deAfter-------------
+2020-11-29 15:50:35.024 [http-nio-8888-exec-10] INFO  com.szx.aspect.LogAspect - Request : {url='http://localhost:8888/BlogInput', ip='0:0:0:0:0:0:0:1', classMethod='com.szx.controller.IndexController.BlogInput', args=[]}
+2020-11-29 15:50:35.025 [http-nio-8888-exec-10] INFO  com.szx.aspect.LogAspect - Result : admin/blogs-input
+2020-11-29 15:50:35.025 [http-nio-8888-exec-10] INFO  com.szx.aspect.LogAspect - ------------deAfter-------------
+2020-11-29 15:50:52.205 [http-nio-8888-exec-5] INFO  com.szx.aspect.LogAspect - Request : {url='http://localhost:8888/BlogInput', ip='0:0:0:0:0:0:0:1', classMethod='com.szx.controller.IndexController.BlogInput', args=[]}
+2020-11-29 15:50:52.206 [http-nio-8888-exec-5] INFO  com.szx.aspect.LogAspect - Result : admin/blogs-input
+2020-11-29 15:50:52.207 [http-nio-8888-exec-5] INFO  com.szx.aspect.LogAspect - ------------deAfter-------------
