@@ -1,26 +1,29 @@
 package com.szx.pojo;
 
 
+// 种类类
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Person implements Serializable {
+public class Type {
 
-    private static final long serialVersionUID = 706344924417679557L;
-    private int id;
-    private String name;
+    private Long id;        // 主键
 
+    private String name;    // 种类名称
 
+    private List<Blog> blogs = new ArrayList<>();   // 一个种类对应多个Blog
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Type{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
