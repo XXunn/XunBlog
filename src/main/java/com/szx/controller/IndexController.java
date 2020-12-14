@@ -20,6 +20,11 @@ public class IndexController {
         return "admin/blogs-input";
     }
 
+    @GetMapping("/login")
+    public String BlogLogin() {
+        return "login";
+    }
+
 
 //    @GetMapping("/{id}/{name}")
 //    public String index(@PathVariable Integer id,@PathVariable String name) {

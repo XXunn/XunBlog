@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" th:href="@{css/login.css}">
+    <script src="https://cdn.staticfile.org/vue/2.6.9/vue.js"></script>
+</head>
+
+<body>
+<div id='app' class="container">
+    <img th:src="@{images/login.jpg}"/>
+    <div class="panel">
+        <div class="content login">
+            <div class="switch">
+                <span :class='{"active": active === "login"}' @click='go("login")'>登陆</span>
+                <span>/</span>
+                <span :class='{"active": active === "register"}' @click='go("register")'>注册</span>
+            </div>
+            <div class='form' id="fromLogin">
+                <template v-if='active === "register"'>
+                    <div class="input"><input type="text" name="email" id='email' /><label for="email">邮箱</label></div>
+                    <div class="input"><input type="text" name="Username" id="username" /><label for="username">用户名</label></div>
+                    <div class="input"><input type="password" name="Password" id="Password" /><label for="Password">密码</label></div>
+                    <div class="input"><input type="password" name="repeat" id="Passwordrepeat" /><label for="Passwordrepeat">重复密码</label></div>
+                </template>
+
+                <template v-if='active === "login"'>
+                    <div class="input"><input type="text" name="Username" id="username" /><label for="username">用户名</label></div>
+                    <div class="input"><input type="password" name="Password" id="Password" /><label for="Password">密码</label></div>
+                </template>
+
+                <span>忘记?</span>
+
+                <button type="submit">登陆</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script>
+    var vue = new Vue({
+        el: '#app',
+        data: {
+            active: 'login'
+        },
+        methods: {
+            go (type) {
+                this.active = type
+            }
+        },
+        beforeMount () {
+
+        }
+    })
+</script>
+
+</html>

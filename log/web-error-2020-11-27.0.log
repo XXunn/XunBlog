@@ -1,5 +1,0 @@
-2020-11-27 11:56:49.937 [http-nio-8888-exec-1] ERROR com.szx.handler.ControllerExceptionHandler - Request IP : 0:0:0:0:0:0:0:1, Request URL : http://localhost:8888/, Exception : Not Exist
-2020-11-27 11:57:03.411 [http-nio-8888-exec-4] ERROR com.szx.handler.ControllerExceptionHandler - Request IP : 0:0:0:0:0:0:0:1, Request URL : http://localhost:8888/, Exception : Not Exist
-2020-11-27 11:57:06.746 [http-nio-8888-exec-5] ERROR com.szx.handler.ControllerExceptionHandler - Request IP : 0:0:0:0:0:0:0:1, Request URL : http://localhost:8888/, Exception : Not Exist
-2020-11-27 11:57:07.973 [http-nio-8888-exec-6] ERROR com.szx.handler.ControllerExceptionHandler - Request IP : 0:0:0:0:0:0:0:1, Request URL : http://localhost:8888/, Exception : Not Exist
-2020-11-27 11:57:08.359 [http-nio-8888-exec-9] ERROR com.szx.handler.ControllerExceptionHandler - Request IP : 0:0:0:0:0:0:0:1, Request URL : http://localhost:8888/, Exception : Not Exist
